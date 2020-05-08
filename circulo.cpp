@@ -1,0 +1,18 @@
+#include "stdio.h"
+#include "stdlib.h"
+#include"iostream"
+using namespace std;
+
+int main(void)
+{
+float radio,perimetro,area;
+cout<<"introduce el radio"<<endl;
+cin>>radio;
+perimetro=2*3.1415*radio;
+area=3.1415*radio;
+cout<<"El perimetro es:"<<endl<<perimetro<<endl;
+cout<<"El area es:"<<endl<<area<<endl;
+
+system("PAUSE");
+return 0;
+}
